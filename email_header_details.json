@@ -1,0 +1,64 @@
+{
+  "From": {
+    "address": "sender@example.com",
+    "description": "The sender's email address"
+  },
+  "To": {
+    "address": "recipient@example.com",
+    "description": "The recipient's email address"
+  },
+  "Subject": {
+    "value": "Sample Email",
+    "description": "The subject line of the email"
+  },
+  "Date": {
+    "value": "Mon, 11 Aug 2025 10:00:00 +0000",
+    "description": "The date and time the email was sent"
+  },
+  "Message-ID": {
+    "value": "<unique-message-id@example.com>",
+    "description": "A unique identifier for this email"
+  },
+  "Received": [
+    {
+      "value": "from mail.example.com (mail.example.com [192.0.2.1]) by smtp.example.com",
+      "description": "Shows the path the email took through mail servers"
+    },
+    {
+      "value": "from smtp.example.com (smtp.example.com [192.0.2.2]) by recipientserver.com",
+      "description": "Shows the next step in the email's delivery path"
+    }
+  ],
+  "Return-Path": {
+    "address": "sender@example.com",
+    "description": "The address for bounce messages"
+  },
+  "MIME-Version": {
+    "value": "1.0",
+    "description": "The version of the MIME protocol used"
+  },
+  "Content-Type": {
+    "value": "text/plain; charset=UTF-8",
+    "description": "The type and encoding of the email content"
+  },
+  "Reply-To": {
+    "address": "replyto@example.com",
+    "description": "The address to reply to, if different from the sender"
+  },
+  "CC": {
+    "address": "cc@example.com",
+    "description": "Carbon copy recipient(s)"
+  },
+  "BCC": {
+    "address": "bcc@example.com",
+    "description": "Blind carbon copy recipient(s), usually hidden"
+  },
+  "X-Mailer": {
+    "value": "Microsoft Outlook 16.0",
+    "description": "The software used to send the email"
+  },
+  "Authentication-Results": {
+    "value": "spf=pass; dkim=pass; dmarc=pass",
+    "description": "Results of email authentication checks"
+  }
+}
