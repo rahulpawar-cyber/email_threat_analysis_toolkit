@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # email_threat_analysis_toolkit
 A toolkit with web UI for analyzing .eml files, detecting suspicious headers, malicious URLs, and harmful attachments using advanced security checks.
 =======
-demo.eml                     # Sample email for testing
 
 # Email Threat Analysis Toolkit
 
@@ -92,7 +90,3 @@ python main.py demo.eml
 - SSL certificate validation requires internet access
 - Domain reputation checking uses multiple sources
 - URL analysis supports IPv6 addresses
-
-## License
-MIT License
->>>>>>> master
